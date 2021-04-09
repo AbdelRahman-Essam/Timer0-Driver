@@ -1,6 +1,7 @@
 #ifndef TIMER0_INT_H_
 #define TIMER0_INT_H_
 #include "utils.h"
+#include "TIMER0_priv.h"
 
 void TIMER0_voidInit(void);
 void TIMER0_voidEnOVFInterreupt(void);
